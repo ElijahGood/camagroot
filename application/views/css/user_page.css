@@ -1,0 +1,12 @@
+body {
+	/*background-color: rgba(187, 175, 2, 0.568);*/
+}
+.main-container {
+	text-align: center;
+	height: 86vh;
+}
+
+.grid-wrapper input {
+	max-width: 500px;
+	width: 50%;
+}

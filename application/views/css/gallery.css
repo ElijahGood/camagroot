@@ -1,0 +1,119 @@
+.main-container {
+	background-image: none;
+}
+
+.no-content-container {
+	background-image: url(groot.png);
+	background-size: 20%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.comment_text {
+	width: 550px;
+	max-width: 550px;
+	max-height: 70px;
+}
+
+.comment_text_container {
+	/* padding: 12px; */
+	display: inline-block;
+}
+
+.show_all_comments {
+	display:inline;
+	cursor:pointer;
+	color:blue;
+}
+.common-container {
+	margin: auto;
+	text-align: center
+}
+
+.post-container {
+	/* position: relative; */
+	margin: auto;
+	/* text-align: center; */
+}
+.comments_container {
+	display: none;
+	text-align: center;
+}
+
+.like_container {
+	cursor: pointer;
+}
+
+.material-icons.md-red {
+	color: brown;
+}
+
+.material-icons.del-comment {
+	cursor: pointer;
+	font-size: 15px;
+}
+
+.material-icons.photo-delete {
+	position: relative;
+	top: 5px;
+	cursor: pointer;
+	font-size: 25px;
+}
+
+.material-icons.show_all_comments {
+	color: black;
+}
+
+.material-icons.comment-button {
+	cursor: pointer;
+	font-size: 25px;
+}
+
+.likes_number {
+	position: relative;
+	bottom: 6px;
+	display: inline-block;
+	
+}
+
+.likes_comment_contaner {
+	text-align: center;
+	display: inline-block;
+}
+
+.pagination {
+	display: inline-block;
+}
+
+.pagination a {
+	color: black;
+	float: left;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+
+.page_number {
+	cursor: pointer;
+}
+
+.center {
+	text-align: center;
+}
+
+.left_page {
+	cursor: pointer;
+}
+
+.right_page {
+	cursor: pointer;
+}
+
+.span-container {
+	max-width: 550px;
+}
+
+.prev_comments {
+	max-width: 550px;
+	display: inline-block;
+	text-align: center;
+}

@@ -1,0 +1,27 @@
+.header-container {
+	background: rgba(68, 110, 28, 0.973);
+	display: block;
+	padding: 20px 10px;
+	margin: 0;
+	overflow: hidden;
+}
+
+body {
+	margin: 0px;
+}
+
+.header-container a {
+	float:right;
+	right: 20%;
+	color: black;
+	text-align: left;
+	/* padding: 12px; */
+	margin-left: 3%;
+	text-decoration: none;
+	line-height: auto;
+	/* border-radius: 4px; */
+}
+
+.header span {
+	width: max-content;
+}

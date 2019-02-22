@@ -1,0 +1,91 @@
+body {
+	/*background-color: rgba(187, 175, 2, 0.568);*/
+}
+
+.common_container {
+	width: 900px;
+	min-height: 1100px;
+	margin: 0 auto;
+}
+
+.video_container {
+	display: flex;
+	position: relative;
+	z-index: 1;
+}
+
+
+#video_sticker {
+	width: 175px;
+	height: 175px;
+	position: absolute;
+	top: 70px;
+	left: 50px;
+	display: none;
+}
+
+#video_sticker img {
+	width: 175px;
+	height: 175px;
+	z-index: 10;
+	display: flex;
+}
+
+#video_image {
+	display: none;
+}
+
+#video_image img {
+	display: flex;
+}
+
+.photo_screen {
+	float: left;
+}
+
+.buttons-container {
+	text-align: center;
+}
+
+.material-icons.photo{
+	cursor: pointer;
+	/* margin-left: 10%; */
+	/* padding: 0 10% 0 10%; */
+	border: 0 2% 0 2%;
+	margin: 0 5% 0 5%;
+}	
+
+.upload-button {
+	max-width: 150px;
+	padding: 0 0% 0 0%;
+}
+
+.stickers_container {
+	width: 200px;
+	height: 850px;
+	margin-right: 20px;
+	float: right;
+	overflow-y: scroll;
+	max-width:220px; /* or whatever width you want. */
+}
+
+.stickers_container img {
+	width: 175px;
+	height: 175px;
+}
+
+#stickers {
+	position: absolute;
+	top: 20%;
+	right: 20%;
+}
+
+#stickers img {
+	width: 175px;
+	height: 175px;
+}
+
+.input.upload-button {
+	padding: 10 10% 10 10%;
+	text-align: center
+}

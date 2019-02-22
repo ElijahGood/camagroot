@@ -1,0 +1,33 @@
+.footer-container {
+	  /* box-sizing: border-box; */
+	/* was */
+	/* position: sticky; */
+	/* width: 100%; */
+
+	/* become*/
+/*	position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px; */
+
+
+
+	background: rgba(68, 110, 28, 0.973);
+	display: block;
+	padding: 20px 10px;
+	margin: 0;
+	overflow: hidden;
+}
+
+.footer-container span {
+	line-height: auto;
+	float:right;
+	width: max-content;
+	padding: 1%;
+	text-decoration: none;
+	line-height: auto;
+}
+.material-icons.copyright {
+	float:right;
+	padding: 0.5%;
+}

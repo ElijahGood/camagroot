@@ -1,0 +1,12 @@
+body {
+	background-color: rgba(187, 175, 2, 0.568);
+}
+
+.photo_container {
+	/* position: relative; */
+	display: grid;
+	grid-template-rows: 1fr;
+	text-align: center;
+	justify-content: center;
+
+}
